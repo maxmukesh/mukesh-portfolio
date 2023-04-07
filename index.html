@@ -948,7 +948,9 @@
 
           </div>
 
-          <form action="" class="contact__form grid">
+          <form class="netlify-form-plm">hello</form> <!--  solve netlify form issue -->
+
+          <form action="" name="contact" method="POST" data-netlify="true" class="contact__form grid">
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="name" class="contact__label">Name</label>
@@ -973,17 +975,56 @@
             </div>
 
             <div>
-              <a href="#" class="button button--flex">
+              <button type="submit" class="button button--flex netlifybtn">
                 Send Message
                 <i class="uil uil-message button__icon"></i>
-              </a>
+              </button>
             </div>
           </form>
         </div>
-      </section>
 
-
+        <!-- ====================== netlify start ============================== -->
+<!-- 
+        <form name="contact" method="POST" data-netlify="true" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+            <label for="name" class="contact__label">Your Name:
+            <input  type="text" class="contact__input" id="name" /></label>
+           </div>
       
+        
+           <div class="contact__content">
+            <label  for="email" class="contact__label">Your Email: 
+            <input type="email" class="contact__input" id="email"/></label>
+           </div>
+           </div>
+
+           <div class="contact__content">
+            <label  for="project" class="contact__label">Your Role: 
+              <input type="text" class="contact__input" id="project">
+            </label>
+          </div>
+          
+          <div class="contact__content">
+            <label for="message" class="contact__label">Message</label>
+            <textarea cols="0" rows="7" class="contact__input" id="message"></textarea> 
+          </div>
+          <div>
+            <button type="submit" class="button button--flex">
+              Send
+              <i class="uil uil-message button__icon"></i>
+            </button>
+          </div>
+         
+        </form> -->
+        
+
+
+        <!-- ============================= netlify end ======================= -->
+
+
+
+      </section>     
     </main>
 
     <!--==================== FOOTER ====================-->

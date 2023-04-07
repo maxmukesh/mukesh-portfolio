@@ -101,6 +101,16 @@ body.dark-theme{
   color: var(--first-color);
 }
 
+/* ======================= netlify issue form solve ========================= */
+.netlifybtn{
+  border: none;
+  cursor: pointer;
+}
+
+.netlify-form-plm{
+  display: none;
+}
+
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
